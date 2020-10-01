@@ -16,7 +16,16 @@
         "forms",
         "membership",
         "Elements",
-        "Input1.json"
+        "inptfirstName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "membership",
+        "Elements",
+        "submitBut.json"
       ]
     }
   ],

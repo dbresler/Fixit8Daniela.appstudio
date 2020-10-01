@@ -1,12 +1,13 @@
 
 let members = ["Mary","Sam","Joey","Paul","Mike","Char","Jenny","Kennedy","Kaden","Kurt","Anne"]
 
+submitBut.onclick=function() {
+  let memberName = inptFirstName.value
+   if (memberName == members)
+    alert("You have account ")
+  else {
+    members.push(inputFirstName.value)
+    alert("members have been registered")
+    }
+    }
 
-Input1.onclick=function(){
-  let name = prompt("Enter your first name")
-  let memberName = members + ${name}
-  if (name == true)
-  alert("You are a member" 
-  if (name ==false) 
-  alert ("You are not a member.")
-}
