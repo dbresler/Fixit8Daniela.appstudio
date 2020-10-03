@@ -26,8 +26,10 @@ inptPlay.onclick=function()
     strDisplay1 = strDisplay0.replace(/verb/g, verbValue)
     strDisplay2 = strDisplay1.replace(/adjective/g, adjectiveValue)
     strDisplay = strDisplay2.replace(/adverb/g, adverbValue)
-
-    FbResult.value = strDisplay
+    lblName.textContent = [`${userName}, here is your MadLib`]
+    lblName.hidden = false
+    lblDisplay.textContent = strDisplay
+    lblDisplay.hidden = false
     inptPlay.value = "Clear"
     console.log(strDisplay)
     }  else  
@@ -37,7 +39,10 @@ inptPlay.onclick=function()
     inptVerb.value = ""
     inptAdjective.value = ""
     inptAdverb.value = ""
-    FbResult.value = ""
+    lblName.textContent = ""
+    lblName.hidden = true
+    lblDisplay.textContent = ""
+    lblDisplay.hidden = true
     inptPlay.value = "Play"
   /*  console.log(userName , nounValue, verbValue, adjectiveValue, adverbValue)*/
     }

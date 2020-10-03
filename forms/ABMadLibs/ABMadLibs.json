@@ -70,7 +70,16 @@
         "forms",
         "ABMadLibs",
         "Elements",
-        "FbResult.json"
+        "lblName.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "ABMadLibs",
+        "Elements",
+        "lblDisplay.json"
       ]
     }
   ],
