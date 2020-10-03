@@ -29,10 +29,10 @@
   "hidden": "",
   "icon": "",
   "iconTitle": "",
-  "id": "inptfirstName",
+  "id": "inptFirstName",
   "inputType": "text",
   "inputmode": "",
-  "left": -26,
+  "left": "0",
   "leftText": "",
   "mAll": "",
   "mBottom": "",
@@ -81,9 +81,9 @@
   "spellcheck": "true",
   "step": "",
   "style": "",
-  "top": 28,
+  "top": 24,
   "validation": "",
   "value": "Enter your name",
   "valueCols": 10,
-  "width": 350
+  "width": "280"
 }
