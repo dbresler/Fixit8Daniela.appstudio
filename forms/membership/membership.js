@@ -1,7 +1,7 @@
 /*
 let members = ["Mary","Sam","Joey","Paul","Mike","Char","Jenny","Kennedy","Kaden","Kurt","Anne"]
 
-let memberName = "" 
+let memberaName = "" 
 //takes the member name
 
 submitBut.onclick=function() {
